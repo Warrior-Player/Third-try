@@ -2,3 +2,13 @@ h1 {
     border:2px solid red;
     width:50%;
 }
+.circle {
+    margin:auto;
+    text-align:center;
+    border: 5px dashed lightblue; 
+    font-size: 2rem;
+    width: 500px;
+    height: 500px;
+    border-radius:250px;
+
+}
