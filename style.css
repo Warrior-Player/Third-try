@@ -18,3 +18,40 @@ h1 {
     height:300px;
     border-radius:150px;
 }
+.circle1page3 {
+    background-color:bisque;
+    width:200px;
+    height:200px;
+    border-radius:100px;
+    margin:auto;
+    position:relative;
+    right:100px;
+}
+.circle2page3 {
+    background-color:bisque;
+    width:200px;
+    height:200px;
+    border-radius:100px;
+    margin:auto;
+    position:relative;
+    left:80px;
+    bottom:200px;
+}
+.nipple1page3 {
+    background-color:pink;
+    width:50px;
+    height:50px;
+    border-radius:25px;
+    margin:auto;
+    position:relative;
+    top:75px;
+}
+.nipple2page3 {
+    background-color:pink;
+    width:50px;
+    height:50px;
+    border-radius:25px;
+    margin:auto;
+    position:relative;
+    top:75px;
+}
