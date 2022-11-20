@@ -1,7 +1,10 @@
 h1 {
     border:2px solid red;
     width:50%;
+    text-align:center;
+    margin:auto;
 }
+
 .circle {
     margin:auto;
     text-align:center;
@@ -81,4 +84,28 @@ h1 {
 }
 .clear {
     clear:both;
+}
+/* Page 2 modifications*/
+.page2span {
+    color:blueviolet;
+}
+.page2floatcontainer {
+    background-color:antiquewhite;
+    border:2px solid #333;
+    padding:1rem;
+    overflow:auto;
+}
+.page2p {
+    font-size:larger;
+}
+/*Page 3 Modifications*/
+.page3p {
+    font-size:larger;
+}
+.page3floatcontainer {
+    background-color:antiquewhite;
+    border:2px solid #333;
+    padding:1rem;
+    display:flow-root;
+
 }
