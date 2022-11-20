@@ -55,3 +55,27 @@ h1 {
     position:relative;
     top:75px;
 }
+#float p {
+    font-size:larger;
+
+}
+.float1 {
+    width:10vw;
+    height:10vw;
+    float:left;
+    background-color:black;
+    color:white;
+    font-size:20px;
+    padding:2rem;
+    margin-right:1rem;
+}
+.float2 {
+    width:10vw;
+    height:10vw;
+    float:left;
+    background-color:black;
+    color:white;
+    font-size:20px;
+    padding:2rem;
+    margin-right:1rem;
+}
