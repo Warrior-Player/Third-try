@@ -149,3 +149,53 @@ h1 {
 .nowrap {
     white-space:nowrap;
 }
+/* Positioning: */
+.positioning {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    min-height:200vh;
+}
+.outer-container {
+    border:3px dashed black;
+    width:75vw;
+    height: 85vw;
+    margin: 40px auto;
+    position:relative; 
+}
+.inner-container {
+    border:2px solid blue;
+    width:40vw;
+    height:50vh;
+    margin:200px auto;
+}
+.box {
+    width:150px;
+    height:150px;
+    padding:1rem;
+}
+.absolute {
+    background-color:blue;
+    position:absolute;
+    top:0px;
+    left:0;
+   
+}
+.relative {
+    background-color:red;
+    position:relative; 
+    top:500px;
+    left:50px;
+    z-index:1;
+}
+.fixed {
+    background-color:green;
+    position:fixed;
+    top:300px;
+    right:600px;
+}
+.sticky {
+    background-color:aquamarine;
+    position:sticky;
+    bottom:0;
+}
