@@ -109,3 +109,43 @@ h1 {
     display:flow-root;
 
 }
+.float2container {
+    border:2px dashed #333;
+    background-color:blanchedalmond;
+    display:flow-root;
+    padding:1rem;
+}
+
+/*Working on columns*/
+.columns {
+    display:block;
+    margin-top:30px;
+    clear:both;
+    font-size:25px;
+    /*column-count:4;
+    column-width:300px;
+    */
+    columns: 4 300px;
+    column-rule:3px dashed #346;
+    column-gap:5rem;
+}
+.columns p {
+    margin-top:0;
+}
+.columns h2 {
+    background-color:#333;
+    color:white;
+    text-align:center;
+    padding:1rem;
+    break-inside:avoid;
+}
+#petersonquote {
+    margin-top:2rem;
+    text-align:center;
+    font-size:40px;
+    font-weight:800;
+    column-span: all;
+}
+.nowrap {
+    white-space:nowrap;
+}
