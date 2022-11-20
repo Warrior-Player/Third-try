@@ -72,10 +72,13 @@ h1 {
 .float2 {
     width:10vw;
     height:10vw;
-    float:left;
+    float:right;
     background-color:black;
     color:white;
     font-size:20px;
     padding:2rem;
     margin-right:1rem;
+}
+.clear {
+    clear:both;
 }
