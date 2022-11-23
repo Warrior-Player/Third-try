@@ -190,12 +190,38 @@ h1 {
 }
 .fixed {
     background-color:green;
-    position:fixed;
-    top:300px;
-    right:600px;
+    /*position:fixed;*/
+    position:relative;
+    /*top:300px;
+    right:600px;*/
 }
 .sticky {
     background-color:aquamarine;
     position:sticky;
     bottom:0;
+}
+.flexboxcontainer {
+    max-width:1000px;
+    min-height:400px;
+    margin-inline:auto;
+    border: 2px solid black;
+    display:flex;
+    justify-content:space-evenly;
+    gap:1rem;
+    align-items:center;
+    flex-direction:row;
+    align-content:space-evenly;
+
+}
+.flexbox {
+    min-width:100px;
+    height:100px;
+    padding:1rem;
+    background-color:black;
+    color:white;
+    font-size:30px;
+    font-weight:700;
+}
+.flexbox:nth-child(3) {
+    flex: 1 2 50px;
 }
